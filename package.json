@@ -1,16 +1,25 @@
 {
-  "name": "full-stack-shopping-cart",
+  "name": "shoppingcart",
   "version": "1.0.0",
   "description": "Lab 24 Starter",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Grand Circus",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "pg": "^6.1.5"
-  }
+    "express": "^4.15.4",
+    "pg": "^6.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurasenko/full-stack-shopping-cart-lab-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laurasenko/full-stack-shopping-cart-lab-starter/issues"
+  },
+  "homepage": "https://github.com/laurasenko/full-stack-shopping-cart-lab-starter#readme"
 }
